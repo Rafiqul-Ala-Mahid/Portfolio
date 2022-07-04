@@ -1,0 +1,7 @@
+div {
+    display: flex;
+}
+
+div img {
+    width: 50%;
+}
