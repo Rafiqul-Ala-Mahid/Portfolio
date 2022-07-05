@@ -7,11 +7,11 @@ h1 {
     font-size: 40px;
 }
 
-.orrange {
+.orange {
     color: orange;
 }
 
-section {
+.container {
     display: flex;
     margin-bottom: 120px;
 }
@@ -30,15 +30,45 @@ section {
     padding: 10px 30px;
     background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
-    color:blanchedalmond;
+    color: blanchedalmond;
     font-weight: 700;
 }
-.first{
+
+.first {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
 }
-.second{
+
+.second {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+
+.box-container{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgb(80, 83, 84);
+}
+
+#web{
+    border-left: 7px solid tomato;
+}
+
+#app{
+    border-left: 7px solid blue;
+}
+.foot{
+    text-align: center;
+    font-size: 20px;
 }
